@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <title>Calculadora de IMC</title>
+    <link rel="shortcut icon" href="assets/img/imc-.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="barnav">
+                <h1> Calculadora de IMC</h1>
+            </div>
+        </nav>
+    </header>
+    <div id="conteiner-geral">
+        <p id="info">IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa
+            está dentro do
+            seu peso ideal em relação à altura. Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se
+            está dentro do peso ideal, acima ou abaixo do peso desejado.</p>
+    </div>
+    <div id="Table">
+        <table>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>abaixo de 16,00</td>
+                    <td>Baixo peso Grau III</td>
+                </tr>
+                <tr>
+                    <td>16,00 a 16,99</td>
+                    <td>Baixo peso Grau II</td>
+                </tr>
+                <tr>
+                    <td>17,00 a 18.49</td>
+                    <td>Baixo peso Grau I</td>
+                </tr>
+                <tr>
+                    <td>18,50 a 24,99</td>
+                    <td>Peso ideal</td>
+                </tr>
+                <tr>
+                    <td>25,00 a 29,99</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>30,00 a 34,99</td>
+                    <td>Obesidade Grau I</td>
+                </tr>
+                <tr>
+                    <td>35,00 a 39,99</td>
+                    <td>Obesidade Grau II</td>
+                </tr>
+                <tr>
+                    <td>40,0 e acima</td>
+                    <td>Obesidade Grau III
+                </tr>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div id="Calc">
+        <h2>Descubra seu IMC aqui:</h2>
+        <form action="" method="post" id="formT">
+            <label for="peso">Seu Peso:</label>
+            <input type="text" id="peso" name="peso">
+            <label for="altura">Sua altura:</label>
+            <input type="text" name="altura" id="altura">
+            <button type="submit">Enviar</button>
+
+        </form>
+        <div id="result"></div>
+    </div>
+    <div class="Final">
+        <h1>Contato com Desenvolvedor:</h1>
+       
+        <a href="https://api.whatsapp.com/send?phone=5519999048848&text=Vim%20pelo%20site%21%20kkk" target="_blank">
+            <img class="WhatsApp" src="/assets/img/160200.png" alt="" width="25px">
+        </a>
+        <a href="pedrohigor20200@gmail.com" target="_blank">
+            <img class="Gmail" src="/assets/img/gmail.png" alt="" width="30px">
+        </a>
+        <a href="https://github.com/HigorDevJ/HigorDevJ" target="_blank">
+            <img class="Github" src="/assets/img/github.png" alt="" width="30px">
+        </a>
+
+    </div>
+
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
